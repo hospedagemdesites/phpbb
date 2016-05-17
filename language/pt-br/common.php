@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB Brasil</a>',
+	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -329,6 +329,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'			=> 'O formato da imagem %d não é suportado para a miniatura %s.', 
 	'IMAGE_FILETYPE_MISMATCH'			=> 'O tipo de arquivo da imagem está em desacordo: A extensão esperada foi %1$s, mas a extensão informada foi %2$s.',	 
 	'IN'								=> 'em', 
+	'INACTIVE'							=> 'Inativo',
 	'INDEX'								=> 'Índice', 
 	'INFORMATION'						=> 'Informação', 
 	'INSECURE_REDIRECT'					=> 'Tentativa de redirecionamento para url potencialmente insegura.',
@@ -467,7 +468,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Tópico reprovado</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" está ausente no sistema de arquivos.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do usuário registrado recentemente: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> de um usuário desativado ou registrado recentemente: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -672,7 +673,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'				=> 'Pesquisar mensagens por',	 
 	'SEARCH_SELF'					=> 'Suas mensagens', 
 	'SEARCH_TOPIC'					=> 'Pesquisar neste tópico…',	 
-	'SEARCH_UNANSWERED'				=> 'Mensagens sem resposta', 
+	'SEARCH_UNANSWERED'				=> 'Tópicos sem resposta', 
 	'SEARCH_UNREAD'					=> 'Mensagens não lidas',
 	'SEARCH_USER_POSTS'				=> 'Pesquisar mensagens do usuário',
 	'SECONDS'						=> 'Segundos',	 
@@ -814,7 +815,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Usuários', 
 	'USE_PERMISSIONS'		=> 'Testar permissões do usuário',	 
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Desculpe, mas você não está autorizado a usar este recurso. Você se registrou recentemente em nossos fóruns e precisa participar um pouco mais para poder utilizá-lo.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Desculpe, mas você não está autorizado a usar este recurso. Você se registrou recentemente em nossos fóruns e deve participar ativamente das discussões para poder utilizar este recurso.',
 	
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visto', 
